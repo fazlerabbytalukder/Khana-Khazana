@@ -14,7 +14,7 @@ export default function Hero() {
                         alt="cover image"
                         className="object-cover"
                     />
-                    <div className='absolute top-1/2 left-12 transform -translate-y-1/2'>
+                    <div className='absolute top-1/2 left-14 transform -translate-y-1/2'>
                         <div className='w-[500px]'>
                             <h1 className="font-bold text-3xl md:text-5xl text-white">
                                 Choose from thousands of recipes
