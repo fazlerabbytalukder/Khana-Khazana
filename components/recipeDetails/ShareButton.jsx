@@ -15,6 +15,8 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 export default function ShareButton({ recipeInfo }) {
+    const pathName = usePathname();
+    console.log(pathName);
     const pageFullUrl = process.env.NEXT_PUBLIC_SITE_URI + usePathname();
     // console.log(pageFullUrl);
     const [showSocialSites, setShowSocialSites] = useState(false);

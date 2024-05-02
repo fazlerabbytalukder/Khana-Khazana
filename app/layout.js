@@ -14,7 +14,7 @@ export const metadata = {
     description: 'A food recipe details finder app',
     images: [
       {
-        url: 'http://localhost:3000/api/og', // Must be an absolute URL
+        url: 'https://khana-khazana-three-rosy.vercel.app/api/og', // Must be an absolute URL
         width: 1200,
         height: 600,
       },

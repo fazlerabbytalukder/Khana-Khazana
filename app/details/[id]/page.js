@@ -20,7 +20,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
         openGraph: {
             images: [
                 {
-                    url: `http://localhost:3000/api/og?title=${recipeInfo.name.slice(
+                    url: `https://khana-khazana-three-rosy.vercel.app/api/og?title=${recipeInfo.name.slice(
                         0,
                         100
                     )}`,
