@@ -9,14 +9,14 @@ export default function Navbar() {
                 <Link href="/">
                     <Image
                         className="object-cover h-[54px]"
-                        src="/logo.png"
+                        src="/logo.svg"
                         alt="kana-kajana"
                         width={165}
                         height={54} />
                 </Link>
 
                 <ul className="flex items-center gap-4 text-sm text-gray-500">
-                    <li className="py-2 active">
+                    <li className="py-2">
                         <Link href="/">Home</Link>
                     </li>
 

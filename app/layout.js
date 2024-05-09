@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { dbConnect } from "@/services/mongo";
 import { Inter } from "next/font/google";
@@ -30,6 +31,7 @@ export default async function RootLayout({ children }) {
         <body className={inter.className}>
           <Navbar />
           {children}
+          <Footer />
         </body>
       </AuthProvider>
     </html>
